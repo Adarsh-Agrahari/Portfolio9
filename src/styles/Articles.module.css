@@ -23,11 +23,12 @@
 	top: 50%;
 	left: 0;
 	width: 4px;
-	height: 88%;
+	height: 0%;
 	background-color: black;
 	transform: translateY(-50%);
 }
 .card {
+	overflow: hidden;
 	background-color: #fff;
 	padding: 10px;
 	display: flex;
