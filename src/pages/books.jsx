@@ -8,14 +8,6 @@ export default function Books({ books = [] }) {
 		<div className={styles.booksContainer}>
 			<Head>
 				<title>Manoj Bhoyar</title>
-				<meta
-					name="description"
-					content="Explore books authored by a seasoned professional on topics like AI, business intelligence, and more."
-				/>
-				<meta
-					name="keywords"
-					content="Books, AI, Business Intelligence, Published Books, AI Strategy"
-				/>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.booksContent}>
@@ -52,8 +44,8 @@ export async function getServerSideProps() {
 	try {
 		const books = [
 			{
-				title: "The AI-Powered Enterprise: Redefining Business Intelligence Strategies",
-				link: "https://www.amazon.com/dp/B0DMWMZ5H6",
+				title: "Deep AI Integration: Theory And Practice of Machine Learning In Complex Systems",
+				link: "https://www.amazon.com/Deep-AI-Integration-Practice-Learning/dp/B0DNCW86S9/ref=monarch_sidesheet_title",
 				image: "img/book.jpg",
 			},
 		];

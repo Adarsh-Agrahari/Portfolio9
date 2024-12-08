@@ -24,7 +24,7 @@ export default function Navbar() {
 				<Link href="/about"> About </Link>
 				<Link href="/"> Award </Link>
 				<Link href="/books"> Books Authored </Link>
-				<Link href="/"> News </Link>
+				<Link href="/news"> News </Link>
 			</div>
 			{isMenuOpen ? (
 				<RxCross1
