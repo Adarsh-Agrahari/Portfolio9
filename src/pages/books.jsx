@@ -7,7 +7,7 @@ export default function Books({ books = [] }) {
 	return (
 		<div className={styles.booksContainer}>
 			<Head>
-				<title>Swetha Chinta</title>
+				<title>Manoj Bhoyar</title>
 				<meta
 					name="description"
 					content="Explore books authored by a seasoned professional on topics like AI, business intelligence, and more."

@@ -7,7 +7,7 @@ export default function About({ aboutData = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Swetha Chinta</title>
+				<title>Manoj Bhoyar</title>
 				<meta
 					name="description"
 					content="Learn more about my 17+ years of expertise in Oracle ERP technologies, technical leadership, system integration, and project management."
@@ -40,9 +40,7 @@ export default function About({ aboutData = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-			"With over 17 years of expertise in Oracle e-Business Suite R12 and Oracle ERP Cloud, I am a seasoned professional specializing in technical leadership, system integration, and project management. My experience spans diverse roles such as Technical Lead, Fusion/Cloud Integration Consultant, and Solution Architect. I have a proven track record of delivering high-quality results in implementation, support processes, and product upgrades, employing both Agile and Waterfall methodologies.",
-			"My skill set includes Oracle Cloud technologies like ICS, PCS, VBCS, REST/SOAP Web Services, BI, and OTBI, as well as hands-on experience with data migrations, system integration, and project delivery in global onshore-offshore models. I am passionate about leveraging my problem-solving and risk analysis skills to navigate complex challenges and deliver innovative, efficient solutions for clients.",
-			"As a certified Oracle Cloud Implementation Specialist, I bring a strong foundation in functional areas such as Finance, Procurement, and Inventory, complemented by extensive experience in developing web and mobile applications using VBCS and integrating third-party systems. My commitment to excellence ensures seamless project execution and client satisfaction. Outside of work, I continuously expand my knowledge through certifications and skill enhancements, staying ahead in the dynamic field of Oracle ERP technologies. Whether driving cross-functional collaboration or mentoring teams, I am dedicated to fostering innovation and achieving impactful outcomes.",
+			"Welcome! I’m Manoj Bhoyar, a seasoned Vice President and Technical Manager with over 24 years of expertise in building complex distributed software systems. My journey in technology has been driven by a passion for innovation, process improvement, and delivering impactful solutions in dynamic environments.","With a strong foundation in software architecture and development, I specialize in Java, Scala, Apache Spark, and cutting-edge technologies that power financial systems. My experience spans across the entire software development lifecycle, from requirement gathering and design to implementation and support. I have successfully led cross-functional global teams, architecting solutions that streamline operations and enhance performance in real-time environments.","In my current role, I drive strategic initiatives such as consolidating reference data platforms and optimizing workflows for client onboarding. I’m deeply experienced in FIX protocols, portfolio trading systems, and regulatory compliance, ensuring seamless integration and operational excellence.","I thrive in roles that demand technical leadership, problem-solving, and collaboration. As a hands-on technical expert, I’ve developed custom frameworks, conducted client/broker certifications, and leveraged next-gen technologies like Spark and Akka to deliver robust, scalable systems.","When not innovating in the tech space, I enjoy mentoring teams, refining processes, and exploring new advancements in data-driven solutions.",
 		];
 
 		return {

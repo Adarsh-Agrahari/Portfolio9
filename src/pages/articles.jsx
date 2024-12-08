@@ -7,7 +7,7 @@ export default function Articles({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Swetha Chinta</title>
+				<title>Manoj Bhoyar</title>
 				<meta
 					name="description"
 					content="Explore articles on topics like AI, cloud computing, ERP integration, and more. Authored by a seasoned professional with expertise in Oracle ERP and emerging technologies."

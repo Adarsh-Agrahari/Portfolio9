@@ -65,7 +65,7 @@
 .heroButton,
 .heroButtonSecondary {
 	padding: 12px 20px;
-	background-color: #ff7d7d;
+	background-color: #59ade5;
 	color: rgb(24, 22, 22);
 	border-radius: 5px;
 	text-decoration: none;
@@ -75,12 +75,12 @@
 
 .heroButton:hover,
 .heroButtonSecondary:hover {
-	background-color: #ff1c58;
+	background-color: #007acc;
 	color: white;
 }
 
 .heroImage img {
-	width: 100%;
+	width: 60%;
 	height: auto;
 	border-radius: 20px;
 }
@@ -97,7 +97,7 @@
 
 .aboutText h2 {
 	font-size: 2.5rem;
-	color: #ff1c58;
+	color: #007acc;
 	margin-bottom: 20px;
 }
 
@@ -108,13 +108,13 @@
 
 .readMore {
 	padding-top: 30px;
-	color: #ff1c58;
+	color: #007acc;
 	text-decoration: none;
 	transition: all 0.3s ease;
 }
 
 .readMore:hover {
-	color: #ff1c58;
+	color: #007acc;
 }
 
 .projects {
@@ -126,7 +126,7 @@
 
 .projects h2 {
 	font-size: 2.5rem;
-	color: #ff1c58;
+	color: #007acc;
 	margin-bottom: 30px;
 }
 
@@ -173,14 +173,14 @@
 }
 
 .socialLinks a {
-	color: #ff5722;
+	color: #007acc;
 	margin: 10px;
 	font-size: 1.5rem;
 	text-decoration: none;
 }
 
 .socialLinks a:hover {
-	color: #e64a19;
+	color: #007acc;
 }
 
 @media screen and (max-width: 800px) {

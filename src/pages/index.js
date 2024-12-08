@@ -48,18 +48,17 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
 	const user = {
-		name: "Swetha Chinta",
-		title: "Oracle ERP Expert | 17+ Years in EBS R12 & Cloud Integration",
+		name: "Manoj Bhoyar",
+		title: "Vice President | Technical Manager | Expert in Distributed Systems, Java, Scala & Apache Spark | Innovating Financial Systems with Strategic Leadership",
 		profileImage: "/img/pic.jpg",
 		about: `
-			I am an experienced Oracle ERP professional with 17+ years of expertise 
-			in Oracle e-Business Suite R12 and Oracle ERP Cloud. I specialize in 
-			system integration, project management, and technical leadership, 
-			with strong skills in Oracle Cloud technologies like ICS, PCS, VBCS, 
-			and REST/SOAP Web Services. As a certified Oracle Cloud Implementation 
-			Specialist, I have a proven track record in delivering seamless 
-			solutions in Finance, Procurement, and Inventory, ensuring client 
-			success and satisfaction.
+			I’m Manoj Bhoyar, a technology leader with over 24 years of experience in designing and
+			implementing complex software systems. Specializing in Java, Scala, Apache Spark, and
+			financial technology, I excel in leading global teams, optimizing workflows, and driving process
+			improvements. My expertise includes FIX protocols, portfolio trading systems, and regulatory
+			compliance, with a proven track record in delivering innovative, scalable solutions. Passionate
+			about mentoring teams and leveraging emerging technologies, I bring strategic vision and
+			technical depth to every challenge I undertake.
 		`,
 	};
 

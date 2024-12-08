@@ -11,17 +11,17 @@ export const QuickLinks = () => {
 			<h1>Quick Links</h1>
 			<div>
 				<li>
-					<Link href="www.linkedin.com/in/swetha-chinta-945964140">
+					<Link href="https://www.linkedin.com/in/manoj-bhoyar-7a4b8a4/">
 						<FaLinkedin /> LinkedIn
 					</Link>
 				</li>
 				<li>
-					<Link href=" https://independent.academia.edu/SwethaChinta1">
+					<Link href=" https://independent.academia.edu/ManojBhoyar">
 						<SiAcademia /> Academia
 					</Link>
 				</li>
 				<li>
-					<Link href="https://scholar.google.com/citations?user=r3tuO9UAAAAJ&hl=en&authuser=6">
+					<Link href="https://scholar.google.com/citations?user=b_oxJaAAAAAJ&hl=en&authuser=6">
 						<FaGoogleScholar /> Google Scholar
 					</Link>
 				</li>
